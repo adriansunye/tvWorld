@@ -22,15 +22,20 @@
   overflow: auto;
 }
 
+#verticalNav li{
+      
+}
+
 #verticalNav li a {
   display: block;
   color: #000;
-  padding: 8px 16px;
+  padding: 25px 20px 20px 20px;
+  color: white;  
   text-decoration: none;
 }
 
 #verticalNav li a.active {
-  background-color: #04AA6D;
+  background-color: #555;
   color: white;
 }
 
@@ -54,11 +59,37 @@
 
 #horizontalNav li a {
   display: block;
+  position: relative;
   color: black;
   text-align: center;
-  padding: 14px 16px;
-    
   text-decoration: none;
+}
+
+#horizontalNav li img {
+  border-radius: 100%;
+  width:42.400px;
+  height:42.400px; 
+}
+
+#horizontalNav li i{
+    font-size: 25px;
+}
+
+#profile{
+    padding:2px;
+}
+#search{
+    width:75px!important;
+    padding-right: 10px;
+}
+
+.icon{
+    margin-top:10px;
+    vertical-align: middle;
+}
+
+.icon i.bi-search{
+   float: right;
 }
 
 #mySearch{
@@ -66,7 +97,6 @@
     border-radius: 33px;
     width:900px;
     margin-top:5px;
-    margin-left:100px;
     box-sizing: border-box;
     padding: 5%;
     border: none;
