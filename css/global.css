@@ -1,83 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero-image {
-  background-image: url("../img/Retrotv.jpg");
-  background-color: #cccccc;
-  height: 725px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    width: 446px;
-    height: 606px;
-    box-sizing: border-box;
-    background: radial-gradient(91.5% 91.5% at 8.52% 8.5%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.48) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    backdrop-filter: blur(20px);
-    /* Note: backdrop-filter has minimal browser support */
-    padding-top: 15px;
-    border-radius: 33px;
-}
-
-
-.formContent{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.formContent #fusername, h3{
-    margin-top: 15px;
-}
-
-.formContent #login, .buttonRegister, .inputForm{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 3%;
-    border: none;
-    vertical-align: middle;
-}
-
-.formContent #login{
-    background: linear-gradient(90.61deg, #4CAF50 15.7%, #95D079 96.23%);
-    mix-blend-mode: normal;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    color:white!important;
-    margin-bottom: 35px;
-    margin-top: 15px;
-    
-}
-.formContent #login a{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.formContent .buttonRegister{
-    margin-top: 15px;
-    mix-blend-mode: normal;
-    border: 2px solid #292929;
-    border-radius: 10px;
-}
-
-.formContent .inputForm{
-    background: #E3E2E2;
-    border-radius: 10px;
-}
-
-.buttonRegister img{
-    height: 15px;    
-}
-
-.nocolor{
-    
+  background-color: #EFEFEF;
+  font-family: Arial;
 }
