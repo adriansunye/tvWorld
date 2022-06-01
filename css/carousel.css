@@ -13,9 +13,17 @@
 }
 .wrapper section .item {
   position: relative;
-  padding: 0 2px;
   transition: 250ms all;
+    padding: 20px 5px 50px 5px;
+    background-color: white;
+    border-radius: 20px;
 }
+
+.wrapper section .item img {
+  border-radius: 20px;
+    
+}
+
 .wrapper section .item:hover {
   margin: 0 40px;
   transform: scale(1.2);
@@ -39,9 +47,10 @@
   font-size: 6em;
   background: black;
   width: 80px;
-  padding: 20px;
+  padding: 60px 20px 20px 20px;
   text-align: center;
   z-index: 1;
+    border-radius: 20px;
 }
 .wrapper section .left-arrow {
   top: 0;

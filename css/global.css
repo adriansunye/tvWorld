@@ -7,3 +7,8 @@ body {
   background-color: #EFEFEF;
   font-family: Arial;
 }
+
+.titles{
+    margin-left: 20px;
+    border-bottom: double;
+}

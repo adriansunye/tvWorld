@@ -1,0 +1,107 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;   
+}
+
+.grid-container > div.item {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+aside {
+  width: 25%;
+  height: 800px;
+  overflow: auto;
+  position: sticky;
+  top: 5%;
+  background-color: white;
+  margin-right:5%;
+}
+
+.main {
+  width: 60%;
+  height: 200vh;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main,
+aside {
+  border: 5px solid $color-dark;
+  background-color: $color-background;
+  border-radius: 10px;
+  color: $color-dark;
+  padding: 15px;
+}
+/*contenidor grid i perfil*/
+.wrapper {  
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper div.item:hover {
+    transform: scale(1.2);
+}
+
+/*posicionament sidebar*/
+#profile-sidebar{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  padding: 10px;   
+}
+#profile-sidebar > div {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+/*contingut aside perfil*/
+#profile-sidebar img {
+  border-radius: 100%;
+  width:250px;
+  height:250px; 
+}
+#profile-name p, 
+#profile-name h3 {
+  margin: 0;
+}
+#profile-name p {
+  padding-bottom: 50px;
+  border-bottom: double;
+}
+.profile-info{
+    border-bottom: solid 1px grey;
+}
+.profile-info a{
+    color: #000;
+    text-decoration: none;
+}
+.profile-info i{
+    float:left;
+}
+.profile-info i.bi-heart-fill{
+    color: red;
+}
+.profile-info i.bi-camera-reels-fill{
+    color: #4CAF50;
+}
+
+/*text informacio perfil*/
+.profile-info p{
+    color: dimgrey;
+    font-size: 20px;
+    margin: 0;
+}
+
+/*icono settings*/
+#profile-settings a{
+    color: darkgrey;
+    text-decoration: none;
+}
