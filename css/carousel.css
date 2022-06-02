@@ -14,7 +14,7 @@
 .wrapper section .item {
   position: relative;
   transition: 250ms all;
-    padding: 20px 5px 50px 5px;
+    padding: 20px 5px 10px 5px;
     background-color: white;
     border-radius: 20px;
 }
@@ -30,13 +30,13 @@
 }
 .wrapper section .item .heading {
   position: absolute;
-  bottom: 20px;
+  bottom: 65px;
   left: 20px;
   color: #fff;
 }
 .wrapper section .item .duration {
   position: absolute;
-  bottom: 0;
+  bottom: 55px;
   left: 20px;
   color: #fff;
 }
@@ -47,10 +47,12 @@
   font-size: 6em;
   background: black;
   width: 80px;
-  padding: 60px 20px 20px 20px;
+    height:142px;
+    margin-top:20px;
+  padding: 30px 20px 20px 20px;
   text-align: center;
   z-index: 1;
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .wrapper section .left-arrow {
   top: 0;
@@ -63,4 +65,17 @@
   bottom: 0;
   right: 0;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+.wrapper section footer {
+  font-size: 30px;
+    margin:10px 20px 0 20px;
+}
+
+.wrapper section footer i{
+  color:black;
+}
+
+.wrapper section footer i.bi-heart-fill {
+  color:red;
 }

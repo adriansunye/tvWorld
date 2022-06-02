@@ -105,3 +105,42 @@ aside {
     color: darkgrey;
     text-decoration: none;
 }
+
+.item footer {
+  font-size: 30px;
+    margin:10px 20px 0 20px;
+}
+
+.item footer i{
+  color:black;
+}
+
+.item footer i.bi-heart-fill {
+  color:red;
+}
+
+.item .heading {
+  position: absolute;
+  bottom: 65px;
+  left: 20px;
+  color: #fff;
+}
+.item .duration {
+  position: absolute;
+  bottom: 55px;
+  left: 20px;
+  color: #fff;
+}
+
+.item img {
+  border-radius: 20px;
+    
+}
+
+.item {
+  position: relative;
+  transition: 250ms all;
+    padding: 20px 5px 10px 5px;
+    background-color: white;
+    border-radius: 20px;
+}
