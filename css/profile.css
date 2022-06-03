@@ -1,17 +1,16 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 10px;
-  padding: 10px;   
+  gap: 20px;
+  padding: 20px;   
 }
 
-.grid-container > div.item {
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.item {
+  position: relative;
+  transition: 250ms all;
+    padding: 20px 5px 10px 5px;
     background-color: white;
     border-radius: 20px;
-    padding-bottom: 50px;
 }
 
 aside {
@@ -124,6 +123,7 @@ aside {
   bottom: 65px;
   left: 20px;
   color: #fff;
+
 }
 .item .duration {
   position: absolute;
@@ -135,12 +135,4 @@ aside {
 .item img {
   border-radius: 20px;
     
-}
-
-.item {
-  position: relative;
-  transition: 250ms all;
-    padding: 20px 5px 10px 5px;
-    background-color: white;
-    border-radius: 20px;
 }
